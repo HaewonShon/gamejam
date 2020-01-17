@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>States\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>States\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPhysics.cpp">
+      <Filter>Component\CustomPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBaseObject.cpp">
+      <Filter>DerivedObject\CustomBaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsPipeline.cpp">
+      <Filter>Component\CustomPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>DerivedObject\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>DerivedObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoControlEmitters.cpp">
+      <Filter>Component\DemoBasicComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoCameraLogic.cpp">
+      <Filter>Component\DemoCameraLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoUIButton.cpp">
+      <Filter>Component\DemoUIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeStateCommand.cpp">
+      <Filter>Commands\ChangeState</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterCommands.cpp">
+      <Filter>Commands\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Commands\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitCommand.cpp">
+      <Filter>Commands\Quit</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoPlayerController.cpp">
+      <Filter>Component\DemoPlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoEnemyController.cpp">
+      <Filter>Component\DemoEnemyController</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoPlayerAnimation.cpp">
+      <Filter>Component\DemoPlayerAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSprite.cpp">
+      <Filter>Component\CustomSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoRescale.cpp">
+      <Filter>Component\DemoRescale</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoCollisionTrigger.cpp">
+      <Filter>Component\DemoCollisionTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPointCommand.cpp">
+      <Filter>Commands\CheckPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageCommand.cpp">
+      <Filter>Commands\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelTopdown.cpp">
+      <Filter>States\LevelTopDown</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoTopdownController.cpp">
+      <Filter>Component\DemoTopdownController</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtils.cpp">
+      <Filter>Utils\MathUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoWrapPosition.cpp">
+      <Filter>Component\DemoWrapPosition</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoEnemySpawner.cpp">
+      <Filter>Component\DemoEnemySpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoAsteroid.cpp">
+      <Filter>DerivedObject\DemoAsteroid</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoReposition.cpp">
+      <Filter>Component\DemoReposition</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoChasePlayer.cpp">
+      <Filter>Component\DemoChasePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersect.cpp">
+      <Filter>Utils\Intersect</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelPlatformer.cpp">
+      <Filter>States\LevelPlatformer</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateArchetype.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>States\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>States\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.cpp">
+      <Filter>States\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4.cpp">
+      <Filter>States\Level4</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerContactListener.cpp">
+      <Filter>Component\CustomPhysics\CustonContactListener</Filter>
+    </ClCompile>
+    <ClCompile Include="TopdownContactListener.cpp">
+      <Filter>Component\CustomPhysics\CustonContactListener</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoLv1Controller.cpp">
+      <Filter>Component\DemoBasicComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoLv4Controller.cpp">
+      <Filter>Component\DemoBasicComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoLv2Controller.cpp">
+      <Filter>Component\DemoBasicComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoPlatformerController.cpp">
+      <Filter>Component\DemoPlatformerController</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="RegisterComponents.cpp">
+      <Filter>Component\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonLevel.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>States\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>States\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPhysics.h">
+      <Filter>Component\CustomPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBaseObject.h">
+      <Filter>DerivedObject\CustomBaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTypes.h">
+      <Filter>Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>DerivedObject\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>DerivedObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoControlEmitters.h">
+      <Filter>Component\DemoBasicComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoCameraLogic.h">
+      <Filter>Component\DemoCameraLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoUIButton.h">
+      <Filter>Component\DemoUIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandTypes.h">
+      <Filter>Commands\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeStateCommand.h">
+      <Filter>Commands\ChangeState</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterCommands.h">
+      <Filter>Commands\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\engine\CommandBuilder.h">
+      <Filter>Commands\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Commands\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitCommand.h">
+      <Filter>Commands\Quit</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoPlayerController.h">
+      <Filter>Component\DemoPlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoEnemyController.h">
+      <Filter>Component\DemoEnemyController</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoPlayerAnimation.h">
+      <Filter>Component\DemoPlayerAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSprite.h">
+      <Filter>Component\CustomSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoRescale.h">
+      <Filter>Component\DemoRescale</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoCollisionTrigger.h">
+      <Filter>Component\DemoCollisionTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPointCommand.h">
+      <Filter>Commands\CheckPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageCommand.h">
+      <Filter>Commands\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelTopdown.h">
+      <Filter>States\LevelTopDown</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoTopdownController.h">
+      <Filter>Component\DemoTopdownController</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Utils\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Utils\MathUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoWrapPosition.h">
+      <Filter>Component\DemoWrapPosition</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoEnemySpawner.h">
+      <Filter>Component\DemoEnemySpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoAsteroid.h">
+      <Filter>DerivedObject\DemoAsteroid</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoReposition.h">
+      <Filter>Component\DemoReposition</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoChasePlayer.h">
+      <Filter>Component\DemoChasePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersect.h">
+      <Filter>Utils\Intersect</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelPlatformer.h">
+      <Filter>States\LevelPlatformer</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateArchetype.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>States\Level1</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>States\Level2</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>States\Level3</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4.h">
+      <Filter>States\Level4</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerContactListener.h">
+      <Filter>Component\CustomPhysics\CustonContactListener</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactData.h">
+      <Filter>Component\CustomPhysics\CustonContactListener</Filter>
+    </ClInclude>
+    <ClInclude Include="TopdownContactListener.h">
+      <Filter>Component\CustomPhysics\CustonContactListener</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoLv1Controller.h">
+      <Filter>Component\DemoBasicComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoLv4Controller.h">
+      <Filter>Component\DemoBasicComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoLv2Controller.h">
+      <Filter>Component\DemoBasicComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoPlatformerController.h">
+      <Filter>Component\DemoPlatformerController</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="RegisterComponents.h">
+      <Filter>Component\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a4c61a45-6f83-4081-bec3-091c42be4108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{42c6271b-7032-405d-a083-7e1855c12c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\MainMenu">
+      <UniqueIdentifier>{1fee0eee-5a70-4de5-a63f-1c226a69796d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Pause">
+      <UniqueIdentifier>{7e8d7d18-2caf-4dce-9009-49d3b89e2115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{b62763e3-c392-4f4f-892a-a1162be4f172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\CustomPhysics">
+      <UniqueIdentifier>{1b269eb7-b85d-4857-9f06-916a4dc82e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedObject">
+      <UniqueIdentifier>{0e957586-e4fa-4f48-8620-2dfe70df3760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedObject\CustomBaseObject">
+      <UniqueIdentifier>{e9875b37-e6d7-4029-9264-3e654bb49340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Base">
+      <UniqueIdentifier>{15b91b81-0b03-476e-8d46-088494e93639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedObject\Turret">
+      <UniqueIdentifier>{34f9e8ed-36dc-400f-86d9-6d07cb01e44b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedObject\Bullet">
+      <UniqueIdentifier>{2d0c57e0-2e8e-417e-8cee-b1f450c26906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoCameraLogic">
+      <UniqueIdentifier>{ff91ce99-ec15-4121-a1e9-be4e54c057eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoUIButton">
+      <UniqueIdentifier>{3130bc99-e357-4cab-9dd7-b1e6cae8656b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{44cd4967-a74e-473d-9f5c-67375d6ced0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\Base">
+      <UniqueIdentifier>{b979cdb3-afe3-4228-9aba-0701cebd0f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\Builder">
+      <UniqueIdentifier>{6c1e141a-6be9-4bcd-852e-3022e07124fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\ChangeState">
+      <UniqueIdentifier>{70a135fb-a28f-4138-94af-1436fe0ec853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\Quit">
+      <UniqueIdentifier>{c0016307-b1a1-4c33-9b99-da7a13f23a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoEnemyController">
+      <UniqueIdentifier>{d98c9fdb-8e09-4d75-9fec-0f5dd4aed3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoPlayerAnimation">
+      <UniqueIdentifier>{1f878d0f-3e49-4698-b537-66cb09abd344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoPlayerController">
+      <UniqueIdentifier>{7892ad7a-8576-40af-9bd6-4466cbf09863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\CustomSprite">
+      <UniqueIdentifier>{80596459-2a50-4644-954f-d4f4757e5e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoRescale">
+      <UniqueIdentifier>{49041bc7-bac2-4788-a03d-61a2b5dfc03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoCollisionTrigger">
+      <UniqueIdentifier>{b681bd12-4c99-477f-ab27-f291c32c01de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\CheckPoint">
+      <UniqueIdentifier>{fc320428-e78d-446e-bd36-cc76fe160b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\Damage">
+      <UniqueIdentifier>{1a42ec4d-c895-4a39-8b60-7f6f4a6c2457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\LevelTopDown">
+      <UniqueIdentifier>{4bc192f1-bc05-4fd3-af2d-f617e6731f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoTopdownController">
+      <UniqueIdentifier>{5e9f6a71-ea38-4ae8-bab5-5db51e737618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{2278b2ad-5abf-45d0-aed2-592c3590191b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Color">
+      <UniqueIdentifier>{248a9ba0-ba55-433a-8c61-b9a5551421ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\MathUtils">
+      <UniqueIdentifier>{5d85c878-fd58-49a8-8186-189c97485d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoWrapPosition">
+      <UniqueIdentifier>{78cb6f31-6084-4ef4-9419-528607b0508f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoEnemySpawner">
+      <UniqueIdentifier>{f77ce9b7-cb8f-44f6-bb1d-02f2d94fa618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedObject\DemoAsteroid">
+      <UniqueIdentifier>{786e41e4-db26-4824-8ddf-2b5024c7e683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoReposition">
+      <UniqueIdentifier>{ca7c1b9c-00ca-48f2-871f-0d8cf05a2572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoChasePlayer">
+      <UniqueIdentifier>{2b6ddb33-836c-4fc6-bfb4-c65f2f16ad8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Intersect">
+      <UniqueIdentifier>{1154fcdf-1a11-44f3-9143-95b991cc8d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\LevelPlatformer">
+      <UniqueIdentifier>{179f64a3-aa97-4d43-9dba-2d9c4efe2e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{3805a998-da45-4493-ac49-f99fac55404d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoBasicComponents">
+      <UniqueIdentifier>{b840417f-a205-4583-b2de-359991621a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Level1">
+      <UniqueIdentifier>{e2116bd1-f7f5-4d4f-be79-446814674661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Level2">
+      <UniqueIdentifier>{d6437c4a-00b9-40c4-be03-6fd516703a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Level3">
+      <UniqueIdentifier>{7d18697b-ccd2-416c-aedb-e8fdfe5e12d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Level4">
+      <UniqueIdentifier>{2c5dfce9-d00b-47ad-aab3-10fcaaafddad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\CustomPhysics\CustonContactListener">
+      <UniqueIdentifier>{6187960e-ed0a-4a3b-888b-afcfa7b40331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\DemoPlatformerController">
+      <UniqueIdentifier>{df4cf110-1802-41aa-92f0-67e99ce7d1f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
